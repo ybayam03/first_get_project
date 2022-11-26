@@ -1,0 +1,9 @@
+***CREATE A PROJECT : first_github_project
+***CREATE A GITHUB REPOSITORY:
+    *Pushing the code FOR THE FIRST TIME
+    git init -> create .git folder in the project. do once for each project
+    git add . -> add all of the code
+    git commit -m "first commit" -> creates a new version(commit)
+    git branch -M main -> creatig a main branch
+    git remote add origin https://github.com/mytechproed1/first_git_project.git -> linking local repo and remote repo.When I push code, code will go to yhis link
+    git push -u origin main -> sending the code to that link
