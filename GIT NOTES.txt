@@ -64,3 +64,14 @@ git pull does fetching and merging in one step
 but git merge will only does merging. we use use git merge after git fetch
 git pull = git fetch + git merge
 ---------------
+GIT CONFLICT?
+-Conflict happens when we merge the code.
+-Scenario:
+    - add Notes10.txt with line 1 message 'Meryem's code'
+    - add Notes10.txt with line 1 message 'Ahmet's code' then commit then push then we got error
+    - pull the code then we got Conflict
+    - then we manually fixed the Conflict
+    - then committed and pushed 
+        -git add .
+        -git commit -m "resolved conflict"
+        -git push
